@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estação do Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../Cafeteria/Estação do Café.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="caixa-video">
+      <video src="./video/videos/coffe.mp4" loop muted autoplay></video>
+    </div>
+
+    <div class="mascara"></div>
+
+    <header class="header">
+      <section>
+        <a href="#">
+          <img src="./img/logo.png" alt="Logo da Cafeteria" />
+        </a>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Sobre</a>
+          <a href="#">Avaliações</a>
+          <a href="#" onclick="mostarModal()">Endereço</a>
+        </nav>
+      </section>
+    </header>
+
+    <section class="caixa-principal">
+      <div>
+        <h3>Code com o Melhor Café da Cidade</h3>
+        <p>
+          Estação do Café é um refúgio urbano pensado para quem valoriza o
+          prazer de um bom café enquanto trabalha. Com um ambiente acolhedor e
+          moderno, nosso espaço interno oferece Wi-Fi de alta velocidade,
+          tomadas acessíveis em várias mesas, e iluminação suave para manter o
+          foco. É ideal para desenvolvedores, designers e profissionais de
+          criação que buscam um local tranquilo e inspirador para colocar ideias
+          em prática. Além dos clássicos, nosso cardápio conta com cafés
+          especiais, acompanhamentos frescos e opções de lanches leves, tudo
+          para tornar a experiência de trabalho ainda mais agradável. Venha para
+          a Estação do Café e transforme suas pausas em momentos de inspiração!
+        </p>
+        <a class="botao-link" href="#">Pegue o Seu Agora</a>
+      </div>
+    </section>
+
+    <section class="caixa-sobre">
+      <h2 class="titulo"><span>Sobre</span> Nós</h2>
+      <div class="sobre-container">
+        <div class="sobre-imagem">
+          <img src="./img/about-img.jpeg" alt="Imagem sobre nós" />
+        </div>
+        <div class="sobre-texto">
+          <h3>O QUE FAZ NOSSO CAFÉ ESPECIAL</h3>
+          <p>
+            Na Estação do Café, cada xícara é uma experiência especial.
+            Selecionamos grãos de alta qualidade, cultivados por produtores
+            locais comprometidos com práticas sustentáveis, que trazem notas e
+            aromas únicos para cada bebida. Nossos baristas são apaixonados pelo
+            que fazem e dedicam-se a extrair o melhor de cada grão, com técnicas
+            cuidadosas e precisão.
+          </p>
+          <p>
+            Além do café excepcional, nossa missão é criar um ambiente onde as
+            pessoas possam se sentir inspiradas e acolhidas.
+          </p>
+          <a class="botao-link" href="#">Saiba Mais</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal">
+      <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.212363084998!2d-48.51418469999997!3d-20.5793834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bb90865c3b7c77%3A0x1c9717eae3f8d2dc!2sR.%20VN%2080%20-%20Jos%C3%A9%20Bento%20dos%20Santos%20-%20Barretos%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1730769178076!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div class="mascara-modal" onclick="esconderModal()"></div>
+
+    <script src="./Estação do Café.js"></script>
+  </body>
+</html>
